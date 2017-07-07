@@ -8,6 +8,8 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "noUnusedParameters": true, // Report errors on unused parameters.
+    "noUnusedLocals": true, // Report errors on unused locals.
     "target": "es5",
     "typeRoots": [
       "node_modules/@types"
